@@ -1,0 +1,138 @@
+@media screen and (max-width: 667px) {
+    .con{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: rgb(190, 186, 186);
+        font-family: HankenGrotesk-Medium;
+        font-size: 14px;
+        margin-top: 50px;
+        font-weight: lighter;
+    }
+    p{
+        color: rgb(190, 186, 186);
+        text-align: center;
+        margin: 0px;
+        padding: 0px 75px;
+    }
+    .container{
+        width: 100%;
+        height: 120vh;
+        margin-top: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 10px 10px 80px rgb(177, 203, 239);
+    }
+    .result-cont{
+        background-image: linear-gradient(rgb(98, 33, 237), rgb(29, 29, 197));
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin-left: 1px;
+        height: 800px;
+    }
+    .circle{
+        background-image: linear-gradient(rgb(39, 4, 114), rgb(29, 29, 197));
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+        border-radius: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .summary-cont{
+        background-image: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        height: 800px;
+        margin: 25px 15px;
+
+
+    }
+    .react{
+        border: none;
+        width: 295px;
+        background-color: rgb(235, 224, 224);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    tr{
+        font-family: HankenGrotesk-ExtraBold;
+    }
+    .score2{
+        color: rgb(132, 123, 123);
+    }
+    .re-data{
+        padding-right: 135px;
+        color: rgb(210, 61, 63);
+    }
+    .react2{
+        width: 295px;
+        border: none;
+        background-color: rgba(252, 235, 0, 0.103);
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .Me-data{
+        padding-right: 135px;
+        color: rgb(215, 153, 19);  
+    }
+    .react3{
+        width: 295px;
+        border: none;
+        background-color: rgba(129, 203, 138, 0.103);
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .V-data{
+        padding-right: 140px;
+        color: rgba(21, 165, 21, 0.623);  
+    }
+    .react4{
+        width: 295px;
+        border: none;
+        background-color: rgba(81, 1, 242, 0.048);
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .Vi-data{
+        padding-right: 135px;
+        color: rgb(77, 39, 155);  
+    }
+    button{
+        width: 295px;
+        background-color: rgba(5, 9, 44, 0.888);
+        color: white;
+        padding: 8px 5px;
+        border-radius: 25px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    h5{
+        color: blue;
+    }
+    .about-heading{
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+}
